@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#03a3df;
+    /*
+    Primary color: #03a3df
+    Secondary colors: #1b447f, #ecb722, #444444
+    */
+}
+
+p .title {
+    text-transform:uppercase;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+body {
+    font-size:17px;
+}
+
+blockquote {
+    font-size: 30px;
+    color: #03a3df;
+}
+
+blockquote .dark {
+    color: #FFFFFF;
+}
+blockquote .name {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a {
+    color:#FFFFFF
+}
+
+header {
+    background-color: #03a3df;
+}
+
+nav a {
+    text-align:right;
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+}
+
+.instructor {
+    height: 500px;
+    width: 300px;
+}
+
+footer {
+    clear: both;
+    background-image: url(images/footer-image.jpg);
+}
