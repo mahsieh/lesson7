@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color:#03a3df;
+    color:#004F6B;
     /*
     Primary color: #03a3df
     Secondary colors: #1b447f, #ecb722, #444444
@@ -33,7 +33,7 @@ body {
 
 blockquote {
     font-size: 30px;
-    color: #03a3df;
+    color: #004F6B;
 }
 
 blockquote .dark {
@@ -47,6 +47,8 @@ blockquote .name {
 
 a {
     color: #FFFFFF;
+    padding: 1rem;
+    margin-right: 0.5rem;
 }
 
 p.spacer {
@@ -54,7 +56,7 @@ p.spacer {
 }
 
 header {
-    background-color: #03a3df;
+    background-color: #004F6B;
     padding: 1% 2% 4% 0%;
 }
 
@@ -130,9 +132,18 @@ footer p {
 }
 
 hr {
-    color:#03a3df;
+    color:#004F6B;
 }
 
 video {
     margin: 1% 0% 3% 8%;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
